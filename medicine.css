@@ -1,0 +1,108 @@
+.image-container {
+    display: flex;
+  }
+  
+  .image-container img {
+    width: 20%; /* Each image occupies one-third of the container width */
+    height: 200px; /* Preserve aspect ratio */
+    border-radius: 50%;
+    margin-right: 150px;
+  }
+  
+.container{
+  position: relative;
+  top: 200px; 
+}
+#bg {
+  background-color:#666666; /* Replace "red" with the desired color */
+  width: 1500px; /* Replace "500px" with the desired width */
+  height: 450px; /* Replace "300px" with the desired height */
+}
+.box {
+  /* CSS properties for the box container */
+  /* Example properties */
+  width: 500px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin-left: 50px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
+  margin-top: -220px;
+  font-family:'Times New Roman', Times, serif;
+}
+.box1 {
+  /* CSS properties for the box container */
+  /* Example properties */
+  width: 500px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin-left: 650px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
+  margin-top: 100px;
+  font-family:'Times New Roman', Times, serif;
+}
+.box2 {
+  /* CSS properties for the box container */
+  /* Example properties */
+  width: 500px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin-left: 50px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
+  margin-top: 90px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.contactus {
+  /* CSS properties for the box container */
+  /* Example properties */
+  width: 500px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #000;
+  border-radius: 50px;
+  margin-left: 700px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
+  margin-top:-150px;
+  font-family:'Times New Roman', Times, serif;
+}
+body {
+  background-image: url("contact1.webp");
+  background-size: 1500px 350px; /* Set the desired width and height here */
+  background-repeat: no-repeat;
+  background-position:100% 50%;
+}
+.text-container {
+  overflow: hidden;
+}
+
+.text-container {
+  overflow: hidden;
+}
+
+.moving-text {
+  animation: moveLeftToRight 40s linear infinite;
+  white-space: nowrap;
+  position: relative;
+  left: -100%;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    left: -100%;
+  }
+  0%
+  {
+    left:0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+
